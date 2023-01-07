@@ -2,6 +2,31 @@
   margin: 0;
 }
 
+/* navbar section */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  background-color: rgba(0, 38, 103, 0.381);
+}
+.navbar h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  color: white;
+}
+.navbar a {
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+/* header section */
+
 .header {
   width: 100%;
   height: 850px;
